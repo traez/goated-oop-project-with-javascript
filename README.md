@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/traez/local-storage-oop-beginner-project](https://github.com/traez/local-storage-oop-beginner-project)
-- Live Site URL: [https://traez.github.io/local-storage-oop-beginner-project/](https://traez.github.io/local-storage-oop-beginner-project/)
+- Solution URL: [https://github.com/traez/goated-oop-project-with-javascript](https://github.com/traez/goated-oop-project-with-javascript)
+- Live Site URL: [https://traez.github.io/goated-oop-project-with-javascript/](https://traez.github.io/goated-oop-project-with-javascript/)
 
 ## My process
 
