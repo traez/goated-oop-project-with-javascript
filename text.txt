@@ -1,0 +1,2 @@
+ document.querySelectorAll("section").forEach(sec => {
+  sec.style.backgroundColor = `${player.statsColor}`});

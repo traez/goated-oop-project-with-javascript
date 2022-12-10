@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height:auto;
+  overflow: scroll;
+  font-family: 'Trebuchet MS';
+  }
+body{
+  width: 100%;
+  height:auto;
+  padding: 5rem 1rem;
+  gap:1rem;
+  display:grid;
+  grid-template: auto/3fr 4fr 3fr;
+  grid-template-areas:
+  "left center right";
+    }
+section{
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: hsla(124, 78%, 78%, 0.53);
+}
+.goatl{
+  grid-area: left;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.pic-left{
+  width: 300px;
+}
+.stats{
+  grid-area: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+span{
+  background-color: aquamarine;
+}
+h4{
+  text-align: center;
+}
+table{
+  table-layout: fixed;
+  width:20rem;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem grey;
+}
+tr{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold ;
+}
+.country-left{
+  width: 100px;
+}
+.club-left{
+  width: 100px;
+}
+.goatr{
+  grid-area: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+.pic-right{
+  width: 300px;
+}
+.country-right{
+  width: 100px;
+}
+.club-right{
+  width: 100px;
+}
