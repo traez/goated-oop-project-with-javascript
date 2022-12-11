@@ -28,6 +28,9 @@ section{
   padding: 1rem;
   background-color: hsla(124, 78%, 78%, 0.53);
 }
+h1,h2,h3,h4,h5{
+  text-align: center;
+}
 .goatl{
   grid-area: left;
   display: flex;
@@ -38,6 +41,12 @@ section{
 }
 .pic-left{
   width: 300px;
+}
+.flag-left{
+  width: 100px;
+}
+.logo-left{
+  width: 100px;
 }
 .stats{
   grid-area: center;
@@ -69,12 +78,6 @@ td{
   text-align: center;
   font-weight: bold ;
 }
-.country-left{
-  width: 100px;
-}
-.club-left{
-  width: 100px;
-}
 .goatr{
   grid-area: right;
   display: flex;
@@ -86,9 +89,9 @@ td{
 .pic-right{
   width: 300px;
 }
-.country-right{
+.flag-right{
   width: 100px;
 }
-.club-right{
+.logo-right{
   width: 100px;
 }

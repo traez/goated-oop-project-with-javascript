@@ -6,6 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
+<!-- 
+Refactored code, making use of classes to make code more "DRY" (Don't Repeat Yourself) and give it a "KISS" (Keep It Simple, Stupid).
+-->
 <body>
 
     <section class="goatl">
@@ -15,7 +18,7 @@
 
     <section class="stats">
 
-        <h1>Ronaldo vs Messi</h1>
+        <h1></h1>
         <h2>Today is <span class="calendar"></span></h2>
         <h4>"Date" stated above is always accurate. While background Image always reflects current daylight</h4>
         <h5>Images and Text were largely populated from JavaScript (Objects)</h5>
@@ -25,20 +28,30 @@
                   <th colspan="3">Player Stats</th>
                 </tr>
                 <tr>
-                  <td><img class="country-left" src=""></td>
-                  <td>Country</td>
-                  <td><img class="country-right" src=""></td>
-                </tr>
-                  <tr>
                   <td class="name-left"></td>
                   <td>Name</td>
                   <td class="name-right"></td>
                 </tr>
                 <tr>
-                    <td><img class="club-left" src=""></td>
-                    <td>Club</td>
-                    <td><img class="club-right" src=""></td>
-                  </tr>
+                  <td class="country-left"></td>
+                  <td>Country</td>
+                  <td class="country-right"></td>
+                </tr>
+                <tr>
+                  <td><img class="flag-left" src=""></td>
+                  <td>Flag</td>
+                  <td><img class="flag-right" src=""></td>
+                </tr>
+                <tr>
+                  <td class="club-left"></td>
+                  <td>Club</td>
+                  <td class="club-right"></td>
+                </tr>
+                <tr>
+                  <td><img class="logo-left" src=""></td>
+                  <td>Logo</td>
+                  <td><img class="logo-right" src=""></td>
+                </tr>
                   <tr>
                   <td class="goals-left"></td>
                   <td>Goals</td>
